@@ -3,7 +3,7 @@ public class Principal {
 
     public static void main(String[] args) {
 
-        // ---------- Emendas Individuais ----------
+        // Emendas Individuais
         Emenda e1 = new EmendaIndividual(2020, "3931 - CARLOS VERAS", "0009", false,
                 "ÁGUAS BELAS - PE", "Educação", "Educação básica",
                 "5011 - EDUCACAO BASICA DE QUALIDADE",
@@ -37,7 +37,7 @@ public class Principal {
         e3.adicionarDocumento("Doc5", new Documento("01/04/2025", "Empenho", 300000.00));
         e3.mostrarDados();
 
-        // ---------- Emendas Bancada ----------
+        // Emendas Bancada 
         Emenda b1 = new EmendaBancada(2021,
                 "7118 - BANCADA DE PERNAMBUCO",
                 "0012",
@@ -85,7 +85,7 @@ public class Principal {
         b3.adicionarDocumento("Pagamento", new Documento("01/03/2021", "Pagamento", 2867418.62));
         b3.mostrarDados();
 
-        // ---------- Emendas Comissão ----------
+        // Emendas Comissão
         Emenda c1 = new EmendaComissao(
                 2020,
                 "5024 - COMISSAO DE VIACAO E TRANSPORTES - CVT",
@@ -138,7 +138,7 @@ public class Principal {
         c3.adicionarDocumento("Pagamento", new Documento("01/03/2016", "Pagamento", 0));
         c3.mostrarDados();
 
-        // ---------- Emendas Relator ----------
+        // Emendas Relator
         Emenda r1 = new EmendaRelator(
                 2017,
                 "S/I - Sem informação",
